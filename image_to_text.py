@@ -62,7 +62,6 @@ def get_string(img_path):
 
     return result
 
-
 print('--- Start recognize text from image ---')
 print(get_string('2.jpg'))  # Changed the image path to '2.jpg'
 print("----- Done -----")
