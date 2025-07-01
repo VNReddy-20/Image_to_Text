@@ -47,7 +47,6 @@ def get_string(img_path):
         return ""  # Return an empty string if image is not found
 
     img = cv2.imread(img_path)
-
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     kernel = np.ones((1, 1), np.uint8)
